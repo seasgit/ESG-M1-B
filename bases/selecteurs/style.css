@@ -1,0 +1,43 @@
+/* selecteur simple c'est à dire d'un élément html  */
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* hierarchie descendante
+ici ,le span du p
+*/
+
+p span {
+    color: red;
+}
+
+/* 
+    si je veux différencier les deux h1,
+    ils doivent avoir un nom de classe
+    Dans le css le nom  de classe commence par un point 
+*/
+
+.titre1 {
+    background-color: orangered;
+}
+
+.titre2 {
+    background-color: dodgerblue;
+}
+
+/* on s'adresse à tous li de .maliste */
+.maliste li {
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+/* le 3ème item passe en bleu */
+.maliste li:nth-of-type(3) {
+    color:dodgerblue;
+}
+
+/* au survol d'un item de liste */
+.maliste li:hover {
+    color:aquamarine;
+}

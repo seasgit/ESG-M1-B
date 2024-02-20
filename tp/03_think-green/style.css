@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+/* reset */
+* {
+   margin: 0;
+}
+
+.banniere {
+   /* box model */
+   width: 1000px;
+   height: 280px;
+   padding-left: 30px;
+   padding-top: 40px;
+   /* margin : top right bottom left */
+   margin: 50px auto 0 auto;
+   /* decoratif */
+   background-image: url(./images/fond.png);
+   background-size: cover;
+   /* tous les textes de banniere */
+   font-family: 'Comfortaa', sans-serif;
+}
+
+.banniere h1 {
+   margin-bottom: 10px;
+   font-size: 45px;
+   color:rgb(0, 113, 0);
+}
+
+
+.banniere h2 {
+   color:white;
+   margin-bottom: 10px;
+}
+
+
+.banniere p {
+   margin-bottom: 20px;
+   width: 400px;
+   color: #008000;
+}
+
+.banniere img {
+   width: 30px;
+}
+
+
+/* 
+   Une section large de 1000px et haute de 280px
+   Tous les textes utilisent la police Comfortaa
+*/
