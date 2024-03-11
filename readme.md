@@ -19,9 +19,16 @@
 
 # Le 11/03/2024
 
-## Travail effectué
+## Travail a effectuer
 - Le principe de box model
     - modèle simple
     - balise structurante
 -__TP__ : Seasonal Spring 
 -__TP__ : Health & Tasty ( à faire en classe par les élèves )
+
+# Le 14/03/2024
+
+# Voir correction
+-__TP__ : Health & Tasty
+
+## Travail a effectuer
