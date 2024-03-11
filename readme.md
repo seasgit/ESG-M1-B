@@ -24,4 +24,4 @@
     - modèle simple
     - balise structurante
 -__TP__ : Seasonal Spring 
--__TP__
+-__TP__ : Health & Tasty ( à faire en classe par les élèves )
