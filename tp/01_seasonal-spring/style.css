@@ -1,0 +1,47 @@
+
+/* 
+    Charge en mémoire un police  embarquée
+    Pour pouvoir l'utiliser dans votre projet
+*/
+
+@font-face {
+    font-family: "bulky";
+    src: url(./fonts/mathlete-bulky.woff);
+}
+
+/*  reset des marges */
+* {
+    margin: 0;
+}
+
+.affiche {
+    /* dimensions */
+    width: 450px;
+    height: 670px;
+    /* marges pour centrer version raccourcie */
+    margin: 20px auto 0 auto;
+    /* espace attribué à la section */
+            /* padding-top: 70px; */
+            /* pour éviter de dilater la section */
+            /* box-sizing: border-box; */
+    /* décoratif */
+    background-color: rgb(70, 141, 203);
+    background-image: url(./images/spring-8.png);
+    background-repeat: no-repeat;
+    /* l'image s'adapte en restant homothétique */
+    background-size: cover;
+}
+
+/* on sélectionne h1 de la section .affiche  */
+.affiche h1 {
+    text-align: center; 
+    color: #1a90b8;
+    font-family: "bulky", sans-serif ;
+    font-size: 90px;
+    letter-spacing: 4px;
+    /*  attention ceci provoque une fusion de marge */
+    /* margin-top: 60px; */
+
+    /* espace attribué au titre */
+    padding-top: 70px;
+}

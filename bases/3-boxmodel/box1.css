@@ -1,0 +1,51 @@
+/* reset des marges de tous éléments de page */
+* {
+    margin: 0;
+}
+.pg1 {
+    /* dimensions */
+    width: 300px;
+    height: auto;
+    /* marges et espaces */
+    margin-left: 80px;
+    margin-bottom: 50px;
+    padding: 10px;
+    /* contournement dilatation dû au paddinget bordures  */
+    box-sizing: border-box;
+    /* bordures */
+    border: 5px solid black;
+    border-radius: 15px;
+    /* décoratif */
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    text-align: justify;
+
+}
+
+/* 
+    Attention : bordures et padding modifient les dimensions
+    Pour tricher : voir box-sizing
+
+*/
+
+
+.s1 {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    padding: 10px;
+    /* pour centrer */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a7e18e;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.toto {
+    margin-bottom: 5px;
+}
+
+.s1 p:nth-of-type(2) {
+    color:rgb(188, 34, 160);
+}

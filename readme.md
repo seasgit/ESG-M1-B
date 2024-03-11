@@ -21,3 +21,7 @@
 
 ## Travail effectué
 - Le principe de box model
+    - modèle simple
+    - balise structurante
+-__TP__ : Seasonal Spring 
+-__TP__
