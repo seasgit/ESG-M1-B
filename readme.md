@@ -14,3 +14,10 @@
 - portera sur les exercices éffectués et la connaissance du support de cours
 
 ## Travail effectué
+- Exo de démo sur les balises html et style css
+- Les sélecteurs CSS
+
+# Le 11/03/2024
+
+## Travail effectué
+- Le principe de box model

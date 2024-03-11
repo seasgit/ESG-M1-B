@@ -1,0 +1,32 @@
+/* 
+    ceci est un commentaire css
+*/
+
+h1 {
+  color: rgb(18, 18, 90);
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+p {
+    color:grey;
+    font-size: 30px;
+}
+
+li {
+    color:green;
+    font-family: sans-serif;
+
+}
+
+img {
+    width:400px;
+}
+
+h2 span {
+    display: block;
+}
+
+.toto span {
+    color:red;
+}

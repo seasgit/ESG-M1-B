@@ -1,0 +1,55 @@
+h1 {
+    font-family: sans-serif;
+    color:#696767;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 80%;
+}
+/* on sélectionne tous les span de tous les paragraphes */
+p span {
+    color: red;
+}
+
+ul li {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/* une class commence par un point */
+.info {
+    color:dodgerblue;
+}
+
+.alert {
+    color:orangered;
+}
+
+.espace {
+    letter-spacing: 5px;
+}
+/* les ancres de l'élément de classe .menu  */
+.menu a {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+/* au survol */
+
+.menu a:hover{
+    color:orangered;
+}
+
+/* on cible une ancre */
+
+.menu a:nth-of-type(2) {
+    font-weight: bold;
+}
+
+/* on cible le 3ème, au survol il devient rouge */
+
+.menu a:nth-of-type(3):hover {
+    color: red;
+}
