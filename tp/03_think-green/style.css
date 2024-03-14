@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+/* reset des marges */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Comfortaa", sans-serif;
+}
+
+/*  sélecteur de classe .banner */
+.banner {
+    /*  dimensions */
+    width: 1000px;
+    height: 280px;
+    /* centrer */
+    margin: 50px auto 0 auto;
+    /* espace interne à gauche et en haut  */
+    padding-left: 40px;
+    padding-top: 55px;
+    /* test de couleur de fond */
+    background-color: aqua;
+    /* arriere plan graphique */
+    background-image: url(./images/fond.png);
+    background-size: cover;
+}
+
+/*  sélecteur des h1 contenus dans la section de classe .banner */
+.banner h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #0b5825;
+}
+
+.banner h2  {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.banner p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/*  toutes les images contenues dans la section */
+
+.banner img {
+    margin-right: 5px;
+}
