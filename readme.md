@@ -19,7 +19,7 @@
 
 # Le 11/03/2024
 
-## Travail a effectuer
+## Travail effectué
 - Le principe de box model
     - modèle simple
     - balise structurante
@@ -31,6 +31,7 @@
 # Voir correction
 -__TP__ : Health & Tasty
 
-## Travail a effectuer
+## Travail effectué
 
 -__TP__  : think green
+-__TP__  : Travel agency mode vertical
