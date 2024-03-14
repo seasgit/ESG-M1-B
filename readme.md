@@ -23,7 +23,7 @@
 - Le principe de box model
     - modèle simple
     - balise structurante
--__TP__ : Seasonal Spring 
+-__TP__ : Seasonal Spring   
 -__TP__ : Health & Tasty ( à faire en classe par les élèves )
 
 # Le 14/03/2024

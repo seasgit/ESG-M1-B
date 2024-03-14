@@ -1,7 +1,54 @@
+/* 
+import depuis le site de google  , on a une url absolue 
+on a un chargement en mémoire de cette police
+*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/* on a un chargement en mémoire avec une adresse relative à un dossier du projet  */
 @font-face {
     font-family: "reey";
     src: url(./fonts/reey-regular.woff);
 }
 
+section {
+    /* dimensions */
+    width: 400px;
+    height: 400px;
+    /* marges gauche et haute noté avec raccourci */
+    margin: 100px 0 0 50px;
+    /* test arrière plan couleur */
+    background-color: aqua;
+    /* arriere plan image */
+    background: url(./images/08.png);
+    /* centrer les titres h1  et h2*/
+    text-align: center;
+}
+
+/* sélecteur simple du h1 de la section */
+section h1 {
+    /* pousser le titre vers le bas */
+    padding-top: 35px;
+    /* graisse normale */
+    font-weight: normal;
+}
+
+
+/* pseudo class pour sélection le bon span */
+
+section h1 {
+    font-family: 'reey', sans-serif;
+    color: rgb(255, 145, 0);
+    font-size: 38px;
+    line-height: 1;
+    /* superposer */
+    position: relative;
+}
+
+section h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    line-height: 1;
+    color: rgb(0, 56, 0);
+    font-weight: bold;
+    margin-top: -25px;
+}
